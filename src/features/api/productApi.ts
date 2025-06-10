@@ -18,7 +18,6 @@ const createApiContract = () => {
       }
 
       const data: Product[] = await response.json()
-      console.log(data)
 
       return {
         data,

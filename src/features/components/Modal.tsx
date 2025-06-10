@@ -21,6 +21,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, product }) => {
         <img src={product?.image} alt={product?.title} className="w-full h-48 object-cover mb-2" />
         <h3 className="font-bold">{product?.title}</h3>
         <p>{product?.category}</p>
+        <p>{product?.description}</p>
         <p className="text-blue-600 font-semibold">${product?.price}</p>
       </div>
     </div>

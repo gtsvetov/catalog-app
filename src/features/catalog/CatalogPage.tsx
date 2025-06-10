@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect, useMemo } from 'react'
 import { Product } from '../../core/types/common'
-import Modal from '../../core/components/Modal'
+import Modal from '../components/Modal'
 import useProductFilter from '../hooks/UseProductFiltres'
 import ProductList from '../components/ProductList'
 import ProductFilters from '../components/ProductFilters'
