@@ -43,7 +43,7 @@ const ProductFilters: React.FC<ProductFiltersProps> = ({
         <select id="sortBy" className="border rounded px-2 py-1" value={sortBy} onChange={handleSortByChange}>
           <option value="default">По умолчанию</option>
           <option value="price">Цене</option>
-          <option value="name">Названию</option>
+          <option value="title">Названию</option>
         </select>
       </div>
     </div>
