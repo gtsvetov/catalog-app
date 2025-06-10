@@ -1,4 +1,4 @@
-import { gql } from "@apollo/client";
+import { gql } from '@apollo/client'
 
 export const GET_PRODUCTS = gql`
   query GetProducts($limit: Int, $offset: Int) {
@@ -11,4 +11,4 @@ export const GET_PRODUCTS = gql`
       description
     }
   }
-`;
+`
